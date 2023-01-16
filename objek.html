@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var koala = {
+        nama : "rubby",
+        warna : "abu abu",
+        jumlah_kaki : 2,
+        jumlah_tangan : 2,
+        mata : {
+            warna_mata : "hitam",
+            warna_pupil : "abu abu",
+        },
+        dipanggil : function (){
+            return "cuek"
+        },
+
+        tidur : function (){
+            return "tidur di tangkai pohon";
+        }
+    }
+
+    document.write(`ini namanya ${koala.nama}`+ "<br />");
+    document.write(`warnanya ${koala.warna}`+ "<br />");
+    document.write(`jumlah kakinya ${koala.jumlah_kaki}`+ "<br />");
+    document.write(`jumlah tanganya ${koala.jumlah_tangan}`+ "<br />");
+    document.write(`warna matanya ${koala.warna_mata}`+ "<br />");
+    document.write(`warna pupilnya ${koala.warna_pupil}`+ "<br />");
+</script>
+</body>
+</html>
